@@ -1,0 +1,57 @@
+@media screen and (min-width: 390px) {
+    .main_con { 
+        max-width: 390px;
+    }
+    .carusel, .images {
+        height: 140px;
+    }
+    .inner_block, .slider_banner {
+        height: 130px;
+    }
+    .labels {
+        top: 122px;
+    }
+}
+
+@media screen and (min-width: 414px) {
+    .main_con { 
+        max-width: 414px;
+    }
+    .inner_block, .slider_banner {
+        height: 135px;
+    }
+    .labels {
+        top: 125px;
+    }    
+}
+
+@media screen and (min-width: 516px) {
+    .main_con { 
+        max-width: 500px;
+    }
+    .carusel, .images {
+        height: 160px;
+    }    
+    .inner_block, .slider_banner {
+        height: 160px;
+    }
+    .labels {
+        top: 145px;
+    }        
+}
+  
+/* Стили для десктопов */
+@media screen and (min-width: 768px) {
+    .main_con { 
+        max-width: 768px;
+    }
+    .carusel, .images { 
+        height: 200px !important;  
+    }
+    .inner_block, .slider_banner {
+        height: 200px;
+    }  
+    .labels {
+        top: 182px;
+    }         
+}
