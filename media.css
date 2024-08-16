@@ -1,3 +1,12 @@
+@media screen and (min-width: 360px) {
+    .custom-button {
+        padding: 10px 12px;
+        margin-bottom: 10px;
+    }
+    .slider_banner {
+        height: 107px;
+    }      
+}
 @media screen and (min-width: 390px) {
     .main_con { 
         max-width: 390px;
@@ -6,11 +15,14 @@
         height: 140px;
     }
     .inner_block, .slider_banner {
-        height: 130px;
+        height: 122px;
     }
     .labels {
-        top: 122px;
+        top: 125px;
     }
+    .custom-button {
+        padding: 10px 12px;
+    }      
 }
 
 @media screen and (min-width: 414px) {
@@ -18,10 +30,13 @@
         max-width: 414px;
     }
     .inner_block, .slider_banner {
-        height: 135px;
+        height: 125px;
     }
     .labels {
-        top: 125px;
+        top: 126px;
+    }  
+    .custom-button {
+        padding: 10px 14px;
     }    
 }
 
@@ -33,11 +48,14 @@
         height: 160px;
     }    
     .inner_block, .slider_banner {
-        height: 160px;
+        height: 142px;
     }
     .labels {
         top: 145px;
-    }        
+    }   
+    .custom-button {
+        padding: 10px 18px;
+    }     
 }
   
 /* Стили для десктопов */
@@ -48,10 +66,23 @@
     .carusel, .images { 
         height: 200px !important;  
     }
-    .inner_block, .slider_banner {
-        height: 200px;
+    .inner_block {
+        height: 200px;    
     }  
+    .slider_banner {
+        height: 182px;
+    }
     .labels {
-        top: 182px;
-    }         
+        top: 185px;
+    }
+    .custom-button {
+        padding: 10px 23px;
+	}
+	
+	.gecko_banner {
+		width: 175px;
+		height: 28px;
+	}
+
+                   
 }

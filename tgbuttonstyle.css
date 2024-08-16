@@ -1,32 +1,55 @@
-/* Определите уникальный класс для кнопки */
-.tg_button {
-	text-transform: uppercase;
+/*//
+//   Copyright 2024 web4plus.github.io
+//
+//   Licensed under the Apache License, Version 2.0 (the "License");
+//   you may not use this file except in compliance with the License.
+//   You may obtain a copy of the License at
+//
+//       http://www.apache.org/licenses/LICENSE-2.0
+//
+//   Unless required by applicable law or agreed to in writing, software
+//   distributed under the License is distributed on an "AS IS" BASIS,
+//   WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+//   See the License for the specific language governing permissions and
+//   limitations under the License.
+//*/
 
+
+
+.tg_button {
+  text-transform: uppercase;
+  
   font-size: 14px;
-  background: linear-gradient(to bottom, #4dc7d9 0%, #66a6ff 100%);
+  background-color:#000;
+  border: 1px solid #5bb6ed;
+  #background: linear-gradient(to bottom, #4dc7d9 0%, #66a6ff 100%);
   color: white;
   padding: 0.8em 1.2em;
   display: flex;
   align-items: center;
   justify-content: center;
-  border: none;
-  border-radius: 15px;
-  box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.2);
+  #border: none;
+  border-radius: 10px;
+  #box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.2);
   transition: all 0.3s;
-  width:90%;
+  width:97%;
   height:50px;
   min-width:300px;
+  margin-bottom: 5px;
 }
 
 .tg_button:hover {
   transform: translateY(-3px);
   box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.3);
+  text-shadow: 0 0 15px rgba(0, 191, 255, 0.8), 0 0 30px rgba(0, 42, 87, 0.5);
+  border: 1px solid #5bb6ed;
+  box-shadow: 0 0 8px rgba(0, 42, 87, 0.8), 0 0 8px rgba(0, 42, 87, 0.5);
 }
 
 .tg_button:active {
   transform: scale(0.95);
   box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2);
-    background: linear-gradient(to bottom, #06D85F 0%, #05c858 100%);
+    #background: linear-gradient(to bottom, #06D85F 0%, #05c858 100%);
 }
 
 .tg_button .svg-wrapper {
@@ -36,13 +59,13 @@
   width: 30px;
   height: 30px;
   border-radius: 50%;
-  background-color: rgba(255, 255, 255, 0.2);
+  #background-color: rgba(255, 255, 255, 0.2);
   margin-right: 0.5em;
   transition: all 0.3s;
 }
 
 .tg_button:hover .svg-wrapper {
-  background-color: rgba(255, 255, 255, 0.5);
+  #background-color: rgba(255, 255, 255, 0.5);
 }
 
 .tg_button svg {
