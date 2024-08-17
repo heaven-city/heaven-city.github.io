@@ -313,7 +313,7 @@ body {
 
   
   background-repeat: no-repeat; 
-background-image: url('graph.PNG'); 
+background-image: url('GRAPH.png'); 
  
 background-size: 50%; 
 background-position: right 40%;
@@ -594,7 +594,6 @@ margin-bottom:15px;
 .gecko_terminal_block {
 	
 background-repeat: no-repeat; 
-#background-image: url('graph.PNG'); 
 height: 50px; 
 background-size: 50%; 
 border-bottom-right-radius:18px; 
