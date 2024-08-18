@@ -298,12 +298,7 @@
  
  
  
-<!DOCTYPE html>
-<html lang="ru">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Дивы в столбец и строки</title>
+
 
 
 
@@ -1095,21 +1090,21 @@ So you decide to get some AV? That's awesome! <br/>
 
     <script>
         async function fetchPrice() {
-            const tokenAddress = 'EQA8zc-6_LXDy_981K1IDshK8CMRuG9quhcqlVXNI81dXHPx'; // Замените на адрес вашего жетона
+            const tokenAddress = 'EQA8zc-6_LXDy_981K1IDshK8CMRuG9quhcqlVXNI81dXHPx'; 
             const apiUrl = "https://api.geckoterminal.com/api/v2/networks/ton/tokens/EQA8zc-6_LXDy_981K1IDshK8CMRuG9quhcqlVXNI81dXHPx/pools?page=1";
             const tonviewer_apiUrl = "https://api.geckoterminal.com/api/v2/networks/ton/tokens/EQA8zc-6_LXDy_981K1IDshK8CMRuG9quhcqlVXNI81dXHPx/pools?page=1";
 
             try {
                 const response = await fetch(apiUrl);
-                if (!response.ok) throw new Error('Ошибка сети');
+                if (!response.ok) throw new Error('Network error');
 
                 const data = await response.json();
                 const tokenData = data.data[0]?.attributes;
-                const price = tokenData?.token_price_usd || 'Не удалось получить цену';
+                const price = tokenData?.token_price_usd || 'Cant get price';
 
                 document.getElementById('price').textContent = `$${parseFloat(price).toFixed(4)}`;
             } catch (error) {
-                document.getElementById('price').textContent = 'Ошибка при получении данных';
+                document.getElementById('price').textContent = 'Data grab error';
             }
         }
 
