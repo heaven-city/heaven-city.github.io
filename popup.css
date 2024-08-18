@@ -10,6 +10,8 @@
     border-radius: 20px/50px;
     background-clip: padding-box;
     text-align: center;
+	
+	
   }
   
   .button {
@@ -17,7 +19,6 @@
     padding: 10px;
     color: #fff;
     /* border: 2px solid #06D85F; */
-    #border-radius: 20px/50px;
     text-decoration: none;
     cursor: pointer;
     transition: all 0.3s ease-out;
@@ -41,6 +42,7 @@
   .overlay:target {
     visibility: visible;
     opacity: 1;
+
   }
   
   .popup {
@@ -88,3 +90,6 @@
       width: 70%;
     }
   }
+  
+  
+  
