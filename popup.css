@@ -79,7 +79,8 @@
   }
   .popup .content {
     max-height: 90%;
-    overflow: auto;
+    overflow: scroll;
+
   }
   
   @media screen and (max-width: 700px){

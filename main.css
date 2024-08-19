@@ -22,25 +22,22 @@
 * {
   scrollbar-width: thin;
   scrollbar-color: #4fbbff black;
-  overflow: visible;
+  
 }
 
 /* Works on Chrome, Edge, and Safari */
 *::-webkit-scrollbar {
   width: 12px;
-  overflow: visible;
 }
 
 *::-webkit-scrollbar-track {
-  background: #4fbbff;
-  overflow: visible;
+  background: orange;
 }
 
 *::-webkit-scrollbar-thumb {
   background-color: #4fbbff;
   border-radius: 20px;
   border: 3px solid black;
-  overflow: visible;
 }
 
 
